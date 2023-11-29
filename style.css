@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navber{
+    display: flex;
+    padding: 16px 160px 16px 198px;
+    align-items: center;
+    gap: 23px;
+    
+    background-color: #1A187A;
+}
+.logo-container{
+    display: flex;
+}
+.search{
+    height: 50px;
+    padding: 10px;
+    align-items: center;
+    gap: 5px;
+    flex: 1 0 0;
+    border-radius: 8px; 
+}
+.menus-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 52px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.9;
+}
+.nav-icon{
+    display: flex;
+    width: 32px;    
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color:white;
+}
+.banner-container{
+    background-color: #e7eef4;
+    align-items: center;
+    justify-content: center;
+    
+}
+.banner-left{
+    text-align: center;
+    text-justify: auto;
+}
+.banner-right{
+    align-items: center;
+    justify-content: center;
+}
+.ipad9
+{
+  width: 100%; 
+  height: 100%; 
+  padding-left: 334px; 
+  padding-right: 48px; 
+  background: white; 
+  justify-content: flex-end; 
+  align-items: center; 
+  display: inline-flex; 
+}
+.ipad9_div{
+    flex: 1 1 0; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end; 
+    gap: 16px; 
+    display: inline-flex;
+}
+.ipad9_text{
+    align-self: stretch; 
+    color: black; 
+    font-size: 49px; 
+    font-family: Montserrat; 
+    font-weight: 500; line-height: 40px; 
+    word-wrap: break-word;
+}
+.ipad9_p{
+    align-self: stretch; 
+    color: #909090; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 500; line-height: 24px; 
+    word-wrap: break-word;
+}
+.main_div{
+    width: 100%; 
+    height: 100%; 
+    padding-left: 156px; 
+    padding-right: 48px; 
+    background: #ADC2D7; 
+    justify-content: flex-end; 
+    align-items: center; 
+    display: inline-flex;
+}
+.div_main1{
+    width: 160px; 
+    height: 143px; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 8px; 
+    display: inline-flex;
+}
+.div_main2{
+    color: black; 
+    font-size: 29px; 
+    font-family: Montserrat; 
+    font-weight: 300; 
+    line-height: 40px; 
+    word-wrap: break-word;
+}
+.div_main3{
+    color: black; 
+    font-size: 29px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    line-height: 40px; 
+    word-wrap: break-word;
+}
+.div_main4{
+    align-self: stretch; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+.div_main5{
+    width: 100%; 
+    height: 100%; 
+    padding-top: 44px; 
+    padding-bottom: 44px; 
+    padding-left: 56px; 
+    padding-right: 264px; 
+    background: #EDEDED; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 1px; 
+    display: inline-flex;
+}
+.div_main6{
+    flex: 1 1 0; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 16px; 
+    display: inline-flex;
+}
+.div_main7{
+    align-self: stretch; 
+    height: 200px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 16px; 
+    display: flex;
+}
+.div_main8{
+    color: black; 
+    font-size: 64px; 
+    font-family: Montserrat; 
+    font-weight: 100; 
+    line-height: 56px; 
+    word-wrap: break-word;
+}
+.div_main9{
+    color: black; 
+    font-size: 64px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    line-height: 56px; 
+    word-wrap: break-word;
+}
+.div_main10{
+   align-self: stretch; 
+   color: #909090; 
+   font-size: 14px; 
+   font-family: Montserrat; 
+   font-weight: 500; 
+   line-height: 24px; 
+   word-wrap: break-word;
+}
+.div_main11{
+    padding-left: 56px; 
+    padding-right: 56px; 
+    padding-top: 16px; 
+    padding-bottom: 16px; 
+    background: #27448E; 
+    border-radius: 6px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex;
+}
+.div_main12{
+    text-align: center; 
+    color: white; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+.div_main13{
+    width: 829px; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+}
+.div_main14{
+  width: 682.08px; height: 468.17px; position: relative;
+}
+.div_main15{
+   left: 11.25px; top: 12.30px; position: absolute; justify-content: center; align-items: center; display: inline-flex;fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.div_main16{
+    align-self: stretch; flex: 1 1 0; justify-content: center; align-items: center; display: inline-flex;
+}
+.div_main17{
+    width: 100%; height: 100%; padding-left: 160px; padding-right: 160px; padding-top: 80px; padding-bottom: 80px; background: #FAFAFA; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 32px; display: inline-flex;
+}
+.div_main18{
+    width: 100%; height: 100%; padding-left: 160px; padding-right: 160px; padding-top: 80px; padding-bottom: 80px; background: #FAFAFA; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 32px; display: inline-flex;
+}
+.div_main19{
+    align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 32px; display: inline-flex;
+}
+.div_main20{
+    width: 160px; height: 128px; padding-left: 52px; padding-right: 52px; padding-top: 24px; padding-bottom: 24px; background: #EDEDED; border-radius: 15px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex;
+}
+.div_main21{
+    text-align: center; color: black; font-size: 16px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word;
+}
+.div_main22{
+    width: 160px; height: 128px; padding-left: 52px; padding-right: 52px; padding-top: 24px; padding-bottom: 24px; background: #EDEDED; border-radius: 15px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex;
+}
+.div_main23{
+    text-align: center; color: black; font-size: 16px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word;
+}
+.div_main24{
+    width: 160px; height: 128px; padding-left: 52px; padding-right: 52px; padding-top: 24px; padding-bottom: 24px; background: #EDEDED; border-radius: 15px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex;
+}
+.div_main25{
+    text-align: center; color: black; font-size: 16px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word;
+}
+.div_main26{
+    width: 160px; height: 128px; padding-left: 52px; padding-right: 52px; padding-top: 24px; padding-bottom: 24px; background: #EDEDED; border-radius: 15px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex;
+}
+.div_main27{
+    width: 100%; height: 100%; padding-left: 160px; padding-right: 160px; padding-top: 56px; padding-bottom: 56px; background: white; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 32px; display: inline-flex;
+}
+.div_main28{
+   align-self: stretch; justify-content: flex-start; align-items: center; gap: 32px; display: inline-flex;
+}
+.div_main29{
+    flex-direction: column; justify-content: center; align-items: flex-start; display: inline-flex;
+}
+.div_main30{
+    text-align: center; color: black; font-size: 18px; font-family: Montserrat; font-weight: 500; line-height: 32px; word-wrap: break-word;
+}
+.div_main31{
+    text-align: center; color: #8B8B8B; font-size: 18px; font-family: Montserrat; font-weight: 500; line-height: 32px; word-wrap: break-word;
+}
+.div_main32{
+    color: #8B8B8B; font-size: 18px; font-family: Montserrat; font-weight: 500; line-height: 32px; word-wrap: break-word;
+}
+.div_main33{
+    align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex;
+}
+.div_main34{
+    flex: 1 1 0; height: 456px; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex;
+}
+.div_main35{
+    flex: 1 1 0; padding-left: 16px; padding-right: 16px; padding-top: 24px; padding-bottom: 24px; background: #F6F6F6; border-radius: 9px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 16px; display: inline-flex;
+}
+.div_main36{
+    align-self: stretch; height: 184px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: flex;
+}
+.div_main37{
+    align-self: stretch; height: 112px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex;
+}
+.div_main38{
+    align-self: stretch; text-align: center; color: black; font-size: 16px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word;
+}
+.div_main39{
+    align-self: stretch; text-align: center; color: black; font-size: 24px; font-family: Montserrat; font-style: italic; font-weight: 700; line-height: 24px; letter-spacing: 0.72px; word-wrap: break-word;
+}
+.div_main40{
+    padding-left: 64px; padding-right: 64px; padding-top: 12px; padding-bottom: 12px; background: black; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: inline-flex;
+}
+.div_main41{
+    text-align: center; color: white; font-size: 14px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word;
+}
+.div_main42{
+    flex: 1 1 0; padding-left: 16px; padding-right: 16px; padding-top: 24px; padding-bottom: 24px; background: #F6F6F6; border-radius: 9px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 16px; display: inline-flex;
+}
+.div_main43{
+    align-self: stretch; height: 160px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: flex;
+}
+.div_main44{
+    align-self: stretch; height: 88px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex;
+}
+.div_main45{
+    align-self: stretch; text-align: center; color: black; font-size: 16px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word;
+}
+.div_main46{
+    align-self: stretch; text-align: center; color: black; font-size: 24px; font-family: Montserrat; font-style: italic; font-weight: 700; line-height: 24px; letter-spacing: 0.72px; word-wrap: break-word;
+}
+.div_main47{
+    padding-left: 64px; padding-right: 64px; padding-top: 12px; padding-bottom: 12px; background: black; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: inline-flex;
+}
+.div_main48{
+    text-align: center; color: white; font-size: 14px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word;
+}
+.div_main49{
+    flex: 1 1 0; height: 456px; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex;
+}
+.div_main50{
+    flex: 1 1 0; padding-left: 16px; padding-right: 16px; padding-top: 24px; padding-bottom: 24px; background: #F6F6F6; border-radius: 9px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 16px; display: inline-flex;
+}
+.div_main51{
+    align-self: stretch; height: 184px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: flex;
+}
+.div_main52{
+    align-self: stretch; height: 112px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex;
+}
+.div_main53{
+    align-self: stretch; text-align: center; color: black; font-size: 16px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word;
+}
+.div_main54{
+    align-self: stretch; text-align: center; color: black; font-size: 24px; font-family: Montserrat; font-style: italic; font-weight: 700; line-height: 24px; letter-spacing: 0.72px; word-wrap: break-word;
+}
+.div_main55{
+    padding-left: 64px; padding-right: 64px; padding-top: 12px; padding-bottom: 12px; background: black; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: inline-flex;
+}
+.div_main56{
+    text-align: center; color: white; font-size: 14px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word;
+}
+.div_main57{
+    flex: 1 1 0; padding-left: 16px; padding-right: 16px; padding-top: 24px; padding-bottom: 24px; background: #F6F6F6; border-radius: 9px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 16px; display: inline-flex;
+}
+.div_main58{
+    align-self: stretch; height: 160px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: flex;
+}
+.div_main59{
+    align-self: stretch; height: 88px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex;
+}
+.div_main60{
+    align-self: stretch; text-align: center; color: black; font-size: 16px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word;
+}
+.div_main61{
+    align-self: stretch; text-align: center; color: black; font-size: 24px; font-family: Montserrat; font-style: italic; font-weight: 700; line-height: 24px; letter-spacing: 0.72px; word-wrap: break-word;
+}
+.div_main62{
+    padding-left: 64px; padding-right: 64px; padding-top: 12px; padding-bottom: 12px; background: black; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: inline-flex;
+}
+.div_main63{
+    text-align: center; color: white; font-size: 14px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word;
+}
+.div_main64{
+   width: 100%; height: 100%; padding-left: 160px; padding-right: 160px; padding-top: 104px; padding-bottom: 104px; background: #0E071B; flex-direction: column; justify-content: center; align-items: flex-start; gap: 24px; display: inline-flex;
+}
+.div_main65{
+   align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex;
+}
+.div_main66{
+    width: 171.67px; height: 21.46px; left: 56.33px; top: 11.62px; position: absolute; color: white; font-size: 26px; font-family: Montserrat; font-weight: 900; line-height: 24px; word-wrap: break-word;
+}
+.div_main67{
+   height: 216px; justify-content: space-between; align-items: flex-start; display: flex;
+}
+.div_main68{
+    width: 295.50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex;
+}
+.div_main69{
+    color: white; font-size: 16px; font-family: Montserrat; font-style: italic; font-weight: 100; line-height: 16px; word-wrap: break-word;
+}
+.div_main70{
+    align-self: stretch; color: #CFCFCF; font-size: 14px; font-family: Montserrat; font-weight: 300; line-height: 32px; word-wrap: break-word;
+}
+.div_main71{
+    width: 295.50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex;
+}
+.banner11{
+    color: #25177B; font-size: 72px; font-family: Montserrat; font-weight: 900; line-height: 72px; word-wrap: break-word;
+}
+.sale{
+    color: white; font-size: 72px; font-family: Montserrat; font-weight: 900; line-height: 72px; word-wrap: break-word;
+}
+.text11{
+    width: 100%; text-align: center; color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; line-height: 32px; word-wrap: break-word;
+}
